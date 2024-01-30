@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66f2d4c92b9e83408dfe1a1790ac658, type: 3}
+  m_Name: Mesa BiomeData
+  m_EditorClassIdentifier: 
+  noiseData: {fileID: 11400000, guid: aa1daab8f66abb44393bdf25fe5b4d0d, type: 2}
+  terrainData: {fileID: 11400000, guid: 71b7246171de35b429fae8b92045d900, type: 2}
+  pools: []

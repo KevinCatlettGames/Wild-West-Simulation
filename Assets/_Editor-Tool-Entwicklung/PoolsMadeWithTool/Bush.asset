@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a36065616140041b96abb3e2ab92d1, type: 3}
+  m_Name: Bush
+  m_EditorClassIdentifier: 
+  poolName: Bush
+  tags:
+  - Bush
+  objects:
+  - {fileID: 7711156493812113221, guid: fd159df7599fd5342b35b1cfdd2ea7ae, type: 3}
+  loadAmount: 1000
+  randomizeSpawnAmount: 0
+  minPlaceAmount: 100
+  maxPlaceAmount: 1000

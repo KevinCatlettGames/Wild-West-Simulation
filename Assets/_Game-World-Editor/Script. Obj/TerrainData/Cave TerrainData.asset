@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded77af92e9400146bfecc45cf7e9e9c, type: 3}
+  m_Name: Cave TerrainData
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  useFlatShading: 1
+  useFalloff: 0
+  meshHeightMultiplier: 85
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.21435778
+      value: 0.014486108
+      inSlope: 0.037558522
+      outSlope: 0.037558522
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.4886034
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.5022278
+      value: 0.12164307
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.77767855
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.85110074
+      value: -0.27844054
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.92255485
+      value: -0.27313486
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: -1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  regions:
+  - name: Water
+    height: 0
+    color: {r: 0.33490568, g: 0.9138938, b: 1, a: 0}
+  - name: Sand
+    height: 0.1
+    color: {r: 1, g: 0.8064188, b: 0.24056602, a: 0}
+  - name: Ground
+    height: 0.2
+    color: {r: 0.9528302, g: 0.5777157, b: 0.13932894, a: 0}
+  - name: Nature01
+    height: 0.3
+    color: {r: 0, g: 0.6603774, b: 0.06757073, a: 0}
+  - name: Nature02
+    height: 0.5
+    color: {r: 0, g: 0.7924528, b: 0.08018875, a: 0}
+  - name: Cave01
+    height: 0.7
+    color: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 0}
+  - name: Cave02
+    height: 0.9
+    color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 0}

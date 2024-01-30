@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66f2d4c92b9e83408dfe1a1790ac658, type: 3}
+  m_Name: Desert  BiomeData
+  m_EditorClassIdentifier: 
+  noiseData: {fileID: 11400000, guid: 90a0000c17d729744b3b9cefba323ae8, type: 2}
+  terrainData: {fileID: 11400000, guid: 957ed8811d7976e4e8cd757e299b95c7, type: 2}
+  pools:
+  - {fileID: 11400000, guid: ec84c3a02b6f7a94e927b5c481217840, type: 2}
+  - {fileID: 11400000, guid: d7f7e8b7ab6d87148ba795229901d239, type: 2}
+  - {fileID: 11400000, guid: 5128781ec380628439a46bb6551c10f2, type: 2}
+  - {fileID: 11400000, guid: 82e7a996399e034459fe3e359168bd0b, type: 2}
+  - {fileID: 11400000, guid: 2460f7cf68ddc4540b0def228660c79c, type: 2}
+  - {fileID: 11400000, guid: 702ceafa3a32b8645ac475071c694d76, type: 2}
+  - {fileID: 11400000, guid: 5feeb32338bc5e7418dc77b5a2c50823, type: 2}
+  - {fileID: 11400000, guid: 1fc5e4815a636fa4e9cabc1219e3b186, type: 2}
+  - {fileID: 11400000, guid: 7c94e603eac23e24c9d15374dc89f038, type: 2}
+  - {fileID: 11400000, guid: 7c908536c1dc2f949bc3a5c07c0513b3, type: 2}
+  - {fileID: 11400000, guid: f6a4498cbb761944db21fef386a46a2f, type: 2}
+  - {fileID: 11400000, guid: 8141ba7613d32a0418b211c07b126dbb, type: 2}

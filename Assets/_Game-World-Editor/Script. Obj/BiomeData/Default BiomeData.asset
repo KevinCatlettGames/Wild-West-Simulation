@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d66f2d4c92b9e83408dfe1a1790ac658, type: 3}
+  m_Name: Default BiomeData
+  m_EditorClassIdentifier: 
+  noiseData: {fileID: 11400000, guid: e05af168e794eed4f99656de183b1b36, type: 2}
+  terrainData: {fileID: 11400000, guid: 78e336207abbc4a40ab9fec1e00bc523, type: 2}
+  pools: []

@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ded77af92e9400146bfecc45cf7e9e9c, type: 3}
+  m_Name: Mesa TerrainData
+  m_EditorClassIdentifier: 
+  autoUpdate: 1
+  useFlatShading: 1
+  useFalloff: 0
+  meshHeightMultiplier: 85
+  meshHeightCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.532372
+      value: 0.0036732946
+      inSlope: 0.007817718
+      outSlope: 0.007817718
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.63504463
+      value: 0.30214748
+      inSlope: 0.0056144637
+      outSlope: 0.0056144637
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.77767855
+      value: 0.3025785
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.91295516
+      value: 0.99998116
+      inSlope: -0.04073433
+      outSlope: -0.04073433
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2986019
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  regions:
+  - name: Base
+    height: 0
+    color: {r: 0.9339623, g: 0.66483706, b: 0.48900855, a: 0}
+  - name: To Middle
+    height: 0.2
+    color: {r: 0.77647066, g: 0.48235297, b: 0.2901961, a: 0}
+  - name: Middle
+    height: 0.5
+    color: {r: 0.8584906, g: 0.4380233, b: 0, a: 0}
+  - name: Middle02
+    height: 0.55
+    color: {r: 1, g: 0.3563676, b: 0, a: 0}
+  - name: Middle03
+    height: 0.65
+    color: {r: 0.3584906, g: 0.14432544, b: 0, a: 0}
+  - name: Middle04
+    height: 0.7
+    color: {r: 0.77647066, g: 0.48235297, b: 0.2901961, a: 0}
+  - name: ToUpper
+    height: 0.75
+    color: {r: 0.6132076, g: 0.15671174, b: 0.0028924954, a: 0}
+  - name: Upper02
+    height: 0.85
+    color: {r: 1, g: 1, b: 1, a: 0}
+  - name: Upper03
+    height: 0.875
+    color: {r: 0.6117647, g: 0.15686275, b: 0.003921569, a: 0}
+  - name: Upper04
+    height: 0.95
+    color: {r: 0.48235297, g: 0.121568635, b: 0, a: 0}

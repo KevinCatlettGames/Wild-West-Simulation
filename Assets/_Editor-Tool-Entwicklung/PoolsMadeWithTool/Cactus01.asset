@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a36065616140041b96abb3e2ab92d1, type: 3}
+  m_Name: Cactus01
+  m_EditorClassIdentifier: 
+  poolName: Cactus01
+  tags:
+  - Cactus01
+  objects:
+  - {fileID: 4582256413687146004, guid: 9fce09511972e3941949defac1b71886, type: 3}
+  loadAmount: 100
+  randomizeSpawnAmount: 1
+  minPlaceAmount: 50
+  maxPlaceAmount: 100
